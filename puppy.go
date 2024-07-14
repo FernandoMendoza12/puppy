@@ -1,9 +1,21 @@
 package puppy
 
+import (
+	dog "github.com/FernandoMendoza12/GoesToEleven"
+)
+
 func Bark() string {
-	return "barking"
+	return "Woof"
 }
 
-func Eat() string {
-	return "eating"
+func Barks() string {
+	return "Woof! Woof! Woof!"
+}
+
+func BigBark() string {
+	return dog.WhenGrowUp(Bark())
+}
+
+func BigBarks() string {
+	return dog.WhenGrowUp(Barks())
 }
