@@ -21,9 +21,13 @@ func BigBarks() string {
 }
 
 func From11() string {
-	return "Version number v1.0.0"
+	return "Version number v1.1.0"
 }
 
 func From12() string {
-	return "Version number v2.0.0"
+	return "Version number v2.2.0"
+}
+
+func From13() string {
+	return "Version number 3.3.0"
 }
