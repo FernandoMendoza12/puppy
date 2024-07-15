@@ -23,3 +23,7 @@ func BigBarks() string {
 func From11() string {
 	return "Version number v1.0.0"
 }
+
+func From12() string {
+	return "Version number v2.0.0"
+}
