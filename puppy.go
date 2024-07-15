@@ -31,3 +31,7 @@ func From12() string {
 func From13() string {
 	return "Version number 3.3.0"
 }
+
+func From14() string {
+	return "Version number 4.4.0"
+}
